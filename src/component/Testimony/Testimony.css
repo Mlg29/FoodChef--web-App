@@ -1,0 +1,56 @@
+
+.testimony {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+    padding: 5%;
+    background-image: url("https://res.cloudinary.com/dtbjhs8a6/image/upload/v1575623524/foodchef/leyb9e3jw3cxlo0i6kip.jpg");
+    background-size: cover;
+    color: white;
+}
+.testimony-div {
+    display: flex;
+    flex-direction: row;
+}
+.testimony-header {
+    margin-bottom: 3%;
+}
+.testimony-div1-header {
+    font-size: 60px;
+    font-weight: bolder;
+}
+.testimony-div1-paragraph {
+    line-height: 30px;
+    font-weight: bold;
+    color: grey;
+}
+.testimony-span {
+    color: grey;
+}
+
+.testimony-div1-header2 {
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .testimony-div {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .testimony-div1-header {
+        margin-top: 5%;
+        margin-bottom: -2%;
+        font-family: 'Pacifico', cursive;
+    }
+    .testimony-div1-paragraph {
+        color: white;
+    }
+    .testimony {
+        margin-top: 5%;
+    }
+    .testimony-header {
+        padding: 10px;
+    }
+}

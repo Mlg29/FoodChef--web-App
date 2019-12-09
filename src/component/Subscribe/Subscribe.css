@@ -1,0 +1,88 @@
+
+.subscribe {
+    background: rgb(236, 76, 111);
+    height: 170px;
+    display: flex;
+    flex-direction: row;
+}
+
+.subscribe-header {
+    margin-top: 5.5%;
+    font-size: 20px;
+    margin-left: 20%;
+    color: white;
+}
+
+.subscribe-div {
+    margin-top: 5%;
+    margin-left: 10%;
+
+}
+.subscribe-input {
+    width: 300px;
+    padding: 7px;
+    background: transparent;
+    border: 1px solid white;
+}
+.subscribe-input::placeholder {
+    color: white;
+}
+.subscribe-button {
+    padding: 7px;
+    background-color: rgb(133, 185, 10);
+    color: white;
+    border: none;
+    width: 100px;
+    border: 1px solid white;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    background: black;
+    color: white;
+    width: 100%;
+}
+.footer-header {
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 0%;
+    width: 50%;
+}
+.footer-header2 {
+    font-size: 20px;
+    padding: 10px;
+    text-align: right;
+    width: 50%;
+    margin-left: 20%;
+}
+
+@media screen and (max-width: 1000px) {
+    .subscribe {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .subscribe-header {
+        margin-left: 0;
+    }
+    .subscribe-div {
+        margin-left: 0;
+        width: 100%;
+    }
+    .subscribe-input {
+        width: 50%;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .footer-header {
+        width: 100%;
+        margin-left: 0;
+    }
+    .footer-header2 {
+        width: 100%;
+        margin-left: 0;
+    }
+}

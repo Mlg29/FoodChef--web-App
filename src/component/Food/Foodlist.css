@@ -1,0 +1,25 @@
+
+.food-header {
+    font-size: 20px;
+    position: relative;
+    top: -70%;
+    left: -10%;
+    color: white;
+}
+.food-image {
+    padding: 3px;
+}
+
+@media screen and (max-width: 1000px) {
+    .food-image {
+        width: 100%;
+        position: relative;
+    }
+    .food-header {
+        font-size: 20px;
+        position: absolute;
+        bottom: 10%;
+        width: 100%;
+        color: red;
+    }
+}

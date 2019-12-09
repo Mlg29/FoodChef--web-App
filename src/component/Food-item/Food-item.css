@@ -1,0 +1,27 @@
+
+.food-item {
+    margin-top: 5%;
+   
+}
+.food-item-header {
+    margin-bottom: 5%;
+}
+.food-item-div {
+    display: flex;
+    flex-direction: row;
+    margin-top: -2%;
+}
+
+@media screen and (max-width: 1000px) {
+    .food-item {
+        margin-top: 15%;
+    }
+    .food-item-header {
+        margin-bottom: 15%;
+    }
+    .food-item-div {
+        display: flex;
+        flex-direction: column;
+        margin-top: -5%;
+    }
+}

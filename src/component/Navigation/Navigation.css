@@ -1,0 +1,39 @@
+
+.nav-bg {
+    background-color: transparent;
+    opacity: 0.9;   
+}
+
+.nav-header {
+    border: 5px solid white;
+    width: 255px;
+    margin-left: 40%;
+}
+.food {
+    background: rgb(192, 100, 100);
+    color: white;
+    padding-right: 5%;
+    padding-left: 3%;
+    border-right: 1px solid white;
+}
+
+.chef {
+    background: black;
+    color: white;
+    padding-right: 5%;
+    padding-left: 3%;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .nav-header {
+        margin-left: 0%;
+        width: 170px;
+        font-size: 25px;
+    }
+    .navbar-light .navbar-toggler {
+        color: white;
+        background-color: white;
+        border: 1px solid white;
+    }
+}
